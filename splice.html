@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+
+
+    const arr = [1, 2, 3];
+    arr.splice(1, 1, 100);
+    console.log(arr); // [1, 4, 2, 3]
+    arr.unshift(50);
+    console.log(arr);
+
+
+    const myArray = ["apple", "banana", "cherry", "durian", "elderberry"];
+    console.log(myArray.slice(1, 4));
+
+
+    const x= [10, 20, 30, 40, 50, 60];
+
+    console.log(x.slice(2,5));
+    console.log(x.slice(2,6));
+    console.log(x.slice());
+    console.log(x.slice(0,10));
+    console.log(x.slice(0,3));
+
+
+    const z = x.slice(2,5);
+    console.log(z);
+
+
+
+
+</script>
+
+</body>
+</html>
